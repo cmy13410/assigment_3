@@ -37,13 +37,13 @@ print("Datatype: ", array.dtype)
 
 # Question 1.b
 print("\nQuestion 1.b:")
-eigenvalues, eigenvectors = lng.eig(np.array([[3, -2], [1, 0]]))
+eigenvalues, eigenvectors = lng.eig(np.array([[3, -2], [1, 0]]))  # Uses numpy libaray function, eig
 print("eigenvalues: \n", eigenvalues)
 print("eigenvectors: \n", eigenvectors)
 
 # Question 1.c
 print("\nQuestion 1.c")
-traced_array = np.trace([[0, 1, 2],[3, 4, 5]])
+traced_array = np.trace([[0, 1, 2],[3, 4, 5]]) # Uses numpy libaray function, trace
 print("Traced array: \n", traced_array)
 
 # Question 1.d
@@ -59,6 +59,6 @@ labels = ['Java', 'Python', 'PHP', 'JavaScript', 'C#', 'C++']
 popularity = [22.2, 17.6, 8.8, 8, 7.7, 6.7]
 
 explode = (0.1, 0, 0, 0, 0, 0)  # explode biggest slice
-mpl.pie(popularity, labels=labels, autopct='%1.1f%%', explode=explode, shadow=True, startangle=130)
+mpl.pie(popularity, labels=labels, autopct='%1.1f%%', explode=explode, shadow=True, startangle=130) # Uses arguments to create desired chart
 mpl.show()
 
