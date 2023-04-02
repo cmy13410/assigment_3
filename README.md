@@ -1,4 +1,4 @@
-# assigment_3: Intro to Machine Learning 
+# assigment_3: Intro to Machine Learning By: Camille Young
 
 email: cmy13410@ucmo.edu
 
